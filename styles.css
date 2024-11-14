@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pbs.twimg.com/ext_tw_video_thumb/979839059974438912/pu/img/w0cfp3anRSZEE38z.jpg:large');
+    background-color: #3c93e2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+}
+
+/* Leaflet map container styling */
+.leaflet-container {
+    height: 60vh;
+    width: 45vw;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#map {
+    height: 60vh;
+    width: 45vw;
+    position: relative;
+    transform: translateX(30%);
+    z-index: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
