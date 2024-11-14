@@ -9,9 +9,9 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-
-const marker = L.marker(uw).addTo(map)
-    .bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
+const dp = [43.46999563971616, -80.5422889304771];
+const marker = L.marker(dp).addTo(map)
+    .bindPopup('This is the DP Library').openPopup();
 
 
 const polygon = L.polygon([
